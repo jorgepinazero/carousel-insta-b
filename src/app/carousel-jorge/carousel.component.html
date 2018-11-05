@@ -1,0 +1,31 @@
+<div class="slider">
+<ngb-carousel *ngIf="images2">
+  <ng-template ngbSlide>
+    <img [src]="images2[0]" alt="Random first slide">
+    <div class="carousel-caption">
+      <h3>First slide label</h3>
+      <p>Hola Ana</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="images2[1]" alt="Random second slide">
+    <div class="carousel-caption">
+      <h3>Second slide label</h3>
+      <p>No nos repruebes</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="images2[2]" alt="Random third slide">
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Por favor :P</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+</div>
+
+<!--<div *ngFor="let dat of data.data">-->
+  <!--<img src="{{dat.images.standard_resolution.url}}">-->
+<!--</div>-->
+
+
